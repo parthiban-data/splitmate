@@ -15,8 +15,7 @@ SplitMate is a simple web app to split expenses with friends. Add who spent what
 `HTML` `CSS` `JavaScript` - Built with Vanilla JS. No frameworks.
 
 ## 🚀 Live Demo
-https://parthiban-data.github.io/splitmate/  
-*Note: Replace with your GitHub Pages link*
+https://parthiban-data.github.io/splitmate/ 
 
 ## 💻 Run Locally
 1. Clone or download this repo
@@ -29,7 +28,7 @@ Example: `name@upi`
 
 ## 📸 UI Image
 ![SplitMate UI](Splitmate_UI.png)  
-*Note: Upload a screenshot to your repo and update the name*
+
 splitmate/
 │
 ├── README.md         
