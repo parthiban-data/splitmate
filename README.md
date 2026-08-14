@@ -50,7 +50,7 @@ I enjoy creating tools that are simple , offline-first and useful for everyone.
 
 This project was built to strengthen my skills in HTML,CSS Javascript and Product Thinking.
 
-[[GitHub](https://github.com/)](un-github-link-ingu-podu)
+[[GitHub](https://github.com/)](https://github.com/parthiban-data/splitmate.git)
 
 If you liked this project, please give it a ⭐
 
