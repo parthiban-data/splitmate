@@ -26,11 +26,12 @@ footer { text-align: center; color: white; margin-top: 20px; font-size: 12px; op
   margin-bottom: 10px;
 }
 .add-expense-row input {
-  width: 100%;
+  flex:1:
+  min-width: 120px;
   box-sizing: border-box;
 }
 @media (max-width: 600px) {
   .add-expense-row {
-    flex-direction: column;
+    min-width:100%;
   }
 }
