@@ -19,3 +19,6 @@ button:hover { transform: translateY(-2px); background: #FFC107; }
 .settle { background: rgb(98, 0, 255); color: white; padding: 10px 12px; border-radius: 10px; font-size: 14px; margin-top: 8px; display: flex; justify-content: space-between; align-items: center; }
 .upi-link { text-decoration: none; color: #fff; background: rgb(8, 158, 15); padding: 6px 12px; border-radius: 8px; font-size: 12px; font-weight: 600; }
 footer { text-align: center; color: white; margin-top: 20px; font-size: 12px; opacity: 0.8; }
+.add-expense-row { display: flex; gap: 10px;}
+.add-expense-row input { width: 100%; box-sizing: border-box;}
+ @media (max-width: 600px) { .add-expense-row { flex-direction: column;}}
