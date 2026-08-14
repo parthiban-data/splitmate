@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SplitMate- Expense Splitter Tool</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>SplitMate<span>Smart Expense Splitter</span></h1>
+  <p class="tagline">No Login. No Server. 100% Offline</p>
+
+  <div class="card">
+    <h3>👥 Add Friends</h3>
+    <div class="input-group">
+      <input type="text" id="personName" placeholder="Enter Name - ex: Rahul">
+      <button onclick="addPerson()">Add</button>
+    </div>
+    <div id="peopleList" class="tags"></div>
+  </div>
+
+  <div class="card">
+    <h3>💸 Add Expense</h3>
+    <div class="input-group">
+      <input type="text" id="paidBy" placeholder="Who Paid">
+      <input type="number" id="amount" placeholder="Amount ₹">
+    </div>
+    <input type="text" id="reason" placeholder="For what? - ex: Biryani" style="width:100%; margin-bottom:10px;">
+    <button onclick="addExpense()" class="btn-full">Add Expense</button>
+  </div>
+
+  <div class="card">
+    <h3>📜 Expense History</h3>
+    <div id="expenseList"></div>
+  </div>
+
+  <div class="card">
+    <h3>💰 Who Owes Whom</h3>
+    <div id="settleList"></div>
+    <button onclick="clearAll()" class="btn-danger">Clear All Data</button>
+  </div>
+
+  <footer>Made with ❤️ using HTML, CSS, JS</footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
