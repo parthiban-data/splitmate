@@ -32,13 +32,11 @@ Example: `name@upi`
 *Note: Upload a screenshot to your repo and update the name*
 splitmate/
 │
-├── index.html          
-├── style.css           
-├── script.js           
-│
-├── README.md          
-│
-└── screenshot.png   
+├── README.md         
+├── Splitmate_UI.png           
+├── index.html           
+├── scripts.js         
+└──  style.css   
 
      
 ## 👨‍💻 About Me
