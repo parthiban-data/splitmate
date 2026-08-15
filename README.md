@@ -27,7 +27,7 @@ Open `script.js` and replace `yourupi@upi` with your UPI ID.
 Example: `name@upi`
 
 ## 📸 UI Image
-![SplitMate UI](Splitmate_UI.png)  
+![SplitMate UI](SplitMate_UI.png)  
 
 splitmate/
 │
